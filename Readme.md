@@ -11,6 +11,12 @@ according to your preferences.
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)
 
+## What's different in this fork:
+- Single var statement, multi-line ternary operator have been made optional.
+- Use `/* */` for multi-line comments instead of double slash.
+
+-------------
+
 ## 2 Spaces for indention
 
 Use 2 spaces for indenting your code and swear an oath to never mix tabs and
@@ -82,7 +88,7 @@ if (true)
 
 Also, notice the use of whitespace before and after the condition statement.
 
-## Declare one variable per var statement
+## Declare one variable per var statement [Optional]
 
 Declare one variable per var statement, it makes it easier to re-order the
 lines. Ignore [Crockford][crockfordconvention] on this, and put those
@@ -236,7 +242,7 @@ if (a == '') {
 
 [comparisonoperators]: https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Operators
 
-## Use multi-line ternary operator
+## Use multi-line ternary operator [Optional]
 
 The ternary operator should not be used on a single line. Split it up into multiple lines instead.
 
@@ -405,7 +411,7 @@ setTimeout(function() {
 
 ## Use slashes for comments
 
-Use slashes for both single line and multi line comments. Try to write
+Use slashes for ~~both~~ single line ~~and multi line~~ comments. Try to write
 comments that explain higher level mechanisms or clarify difficult
 segments of your code. Don't use comments to restate trivial things.
 
